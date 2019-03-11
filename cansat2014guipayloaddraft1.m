@@ -1,4 +1,5 @@
-% Demetrios Doumas Head Programmer   1/24/14
+% Demetrios Doumas Lead Ground Station Programmer   1/24/14
+
 function varargout = cansat2014guidraft1(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
@@ -47,7 +48,6 @@ else
         clear s
     end
 
-%cla(handles.Altitude_sensor)
     
 end
 
@@ -351,14 +351,9 @@ end
 
 
 
-% --- Executes during object creation, after setting all properties.
-function axes21_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to axes22 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
 
-% Hint: place code in OpeningFcn to populate axes22
-rgb = imread('aerostream.jpg');
+function axes21_CreateFcn(hObject, eventdata, handles)
+rgb = imread('backgroundimage.jpg');
 image(rgb, 'XData', [0 .1], 'YData', [0 .1])
 set(gca,'xcolor',get(gcf,'color'));
 set(gca,'ycolor',get(gcf,'color'));
@@ -366,13 +361,8 @@ set(gca,'ytick',[]);
 set(gca,'xtick',[]);
 
 
-% --- Executes during object creation, after setting all properties.
-function axes22_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to axes22 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
 
-% Hint: place code in OpeningFcn to populate axes22
+function axes22_CreateFcn(hObject, eventdata, handles)
 rgb = imread('Clublogo.jpg');
 image(rgb, 'XData', [0 .1], 'YData', [0 .1])
 set(gca,'xcolor',get(gcf,'color'));
