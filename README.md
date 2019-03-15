@@ -5,14 +5,14 @@ Mission Objective:
 
 "The mission simulates a sensor payload traveling through a planetary atmosphere sampling the atmospheric composition during its descent."
 
-Develop a can-sized satellite that is made of two parts. The two parts are called the container and payload. All electronics need to be powered by solar panels. A team consisting of eight members with different background in engineering are tasked to develop the cansat. The cansat is made of kevlar and fiber glass. The mechanical team consisted of Majilinda Mallellari, Patrick Sebastien Guillaume, Graham Hill, Surya Sanjiv, and Fady Mekhael. The electronics, solar panels and PCB was developed by Courtland Hui.   
+Develop a can-sized satellite that is made of two parts. The two parts are called the container and payload. All electronics need to be powered by solar panels. A team consisting of eight members with different background in engineering are tasked to develop the cansat. The cansat is made of kevlar and fiber glass. The mechanical team that made the cansat possible consisted of Majilinda Mallellari, Patrick Sebastien Guillaume, Graham Hill, Surya Sanjiv, and Fady Mekhael. The electronics, solar panels and PCB was developed by Courtland Hui.   
 
 My role:
 
 As the leader of ground station, I was task to read telemetry string from an Arduino microcontroller in the cansat called Arduino Pro Mini 5v. The microcontroller is located in the payload. I was also in charge of communications. I used xBee radio modules Pro 3B 900 MHz series and two omnidirectional antennas. The antenna stand was made by Fady Mekhael, it height is approximately 3.5 meters.
 
 Telemetry String that the Arduino sends:
-(Team ID) 1957, Packet count, mission time (seconds), Altitude, Temperature (C), Voltage, Pressure, x acceleration data, y acceleration data, z acceleration data. Its important to have the team id(1957) as the header of the packet because the software will recognize the data from the cansat and not from another team's cansat. The firmware from the xBees also prevents that from happening as well. The software used to program the radio module is called X-CTU
+(Team ID) 1957, Packet count, mission time (seconds), Altitude, Temperature (C), Voltage, Pressure, x acceleration data, y acceleration data, z acceleration data. It is important to have the team id (1957) as the header of the packet because the software will recognize the data from the cansat and not from another team's cansat. The firmware from the xBees also prevents that from happening as well. The software used to program the radio module is called X-CTU
 
 # Installation
 This software is intended for windows OS.
@@ -42,7 +42,7 @@ Fady Mekhael
 Electrical Engineers:
 
 Courtland Hui
-Joel Annenberg 
+Joel Annenberg (Biomedical Engineer)
 
 Computer Engineer:
 
