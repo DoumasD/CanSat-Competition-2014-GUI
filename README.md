@@ -33,16 +33,15 @@ Team Members:
 
 Mechanical Engineers:
 
-Majilinda Mallellari 
-Patrick Sebastien Guillaume 
-Graham Hill
-Surya Sanjiv
+Majilinda Mallellari, 
+Patrick Sebastien Guillaume, 
+Graham Hill,
+Surya Sanjiv, and
 Fady Mekhael
 
 Electrical Engineers:
 
-Courtland Hui
-Joel Annenberg (Biomedical Engineer)
+Courtland Hui, and Joel Annenberg (Biomedical Engineer)
 
 Computer Engineer:
 
