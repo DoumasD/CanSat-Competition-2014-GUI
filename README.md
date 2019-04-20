@@ -16,10 +16,10 @@ Telemetry String that the Arduino sends:
 
 # Installation
 This software is intended for windows OS.
-Two ways to run this GUI:
 Note: Make sure all files are in the same directory; except the exe file could be run anywhere.
-1.)  Click on the executable file, however make sure to install the MATLAB compiler 2013b 8.2 version
-2.)  Open the .m file in MATLAB and click run. 
+1.)  Open the .m file in MATLAB and click run. 
+
+Note: MATLAB compiler 2013b 8.2 version
 
 
 # Usage
@@ -46,31 +46,3 @@ Courtland Hui, and Joel Annenberg (Biomedical Engineer)
 Computer Engineer:
 
 Demetrios Doumas
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
