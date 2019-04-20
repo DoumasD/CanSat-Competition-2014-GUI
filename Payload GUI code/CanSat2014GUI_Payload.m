@@ -1,11 +1,11 @@
 % Demetrios Doumas Lead Ground Station Programmer   1/24/14
 
-function varargout = cansat2014guidraft1(varargin)
+function varargout = CanSat2014GUI_Payload(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @cansat2014guidraft1_OpeningFcn, ...
-                   'gui_OutputFcn',  @cansat2014guidraft1_OutputFcn, ...
+                   'gui_OpeningFcn', @CanSat2014GUI_Payload_OpeningFcn, ...
+                   'gui_OutputFcn',  @CanSat2014GUI_Payload_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -18,13 +18,13 @@ else
     gui_mainfcn(gui_State, varargin{:});
 end
 
-function cansat2014guidraft1_OpeningFcn(hObject, eventdata, handles, varargin)
+function CanSat2014GUI_Payload_OpeningFcn(hObject, eventdata, handles, varargin)
 handles.output = hObject;
 guidata(hObject, handles);
 
 
 
-function varargout = cansat2014guidraft1_OutputFcn(hObject, eventdata, handles) 
+function varargout = CanSat2014GUI_Payload_OutputFcn(hObject, eventdata, handles) 
 varargout{1} = handles.output;
 
 function pushb_Callback(hObject, eventdata, handles)
@@ -369,3 +369,8 @@ set(gca,'xcolor',get(gcf,'color'));
 set(gca,'ycolor',get(gcf,'color'));
 set(gca,'ytick',[]);
 set(gca,'xtick',[]);
+
+
+
+
+
